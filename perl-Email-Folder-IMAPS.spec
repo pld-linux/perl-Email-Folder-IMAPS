@@ -18,11 +18,11 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Email::Folder::IMAP)
-BuildRequires:	perl(Email::FolderType::Net)
-BuildRequires:	perl(Net::IMAP::Simple::SSL)
-BuildRequires:	perl(Test::More) >= 0.47
-BuildRequires:	perl(URI::imaps)
+BuildRequires:	perl-Email-Folder-IMAP
+BuildRequires:	perl-Email-FolderType-Net
+BuildRequires:	perl-Net-IMAP::Simple-SSL
+#BuildRequires:	perl-Test-More >= 0.47
+BuildRequires:	perl-URI-imaps
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
