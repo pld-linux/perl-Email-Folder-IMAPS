@@ -9,7 +9,7 @@ Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP over SSL Folders
 Summary(pl):	Email::Folder::IMAP - Dostêp do folderów IMAP przez SSL za pomoc± Email::Folder
 Name:		perl-Email-Folder-IMAPS
 Version:	1.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,7 +20,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Email-Folder-IMAP
 BuildRequires:	perl-Email-FolderType-Net
-BuildRequires:	perl-Net-IMAP::Simple-SSL
+BuildRequires:	perl-Net-IMAP-Simple-SSL
 #BuildRequires:	perl-Test-More >= 0.47
 BuildRequires:	perl-URI-imaps
 %endif
