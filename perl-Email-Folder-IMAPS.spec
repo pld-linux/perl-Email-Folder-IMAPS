@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Folder-IMAPS
+%define		pdir	Email
+%define		pnam	Folder-IMAPS
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP over SSL Folders
 Summary(pl):	Email::Folder::IMAP - Dostêp do folderów IMAP przez SSL za pomoc± Email::Folder
 Name:		perl-Email-Folder-IMAPS
