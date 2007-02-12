@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Folder-IMAPS
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP over SSL Folders
-Summary(pl):	Email::Folder::IMAP - Dostêp do folderów IMAP przez SSL za pomoc± Email::Folder
+Summary(pl.UTF-8):   Email::Folder::IMAP - DostÄ™p do folderÃ³w IMAP przez SSL za pomocÄ… Email::Folder
 Name:		perl-Email-Folder-IMAPS
 Version:	1.02
 Release:	3
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This software adds IMAPS functionality to Email::Folder. Its interface
 is identical to the other Email::Folder::Reader subclasses.
 
-%description -l pl
+%description -l pl.UTF-8
 Ta klasa dodaje do Email::Folder wsparcie dla IMAPS. Interfejs jest
-identyczny wzglêdem innych podklas Email::Folder::Reader.
+identyczny wzglÄ™dem innych podklas Email::Folder::Reader.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
