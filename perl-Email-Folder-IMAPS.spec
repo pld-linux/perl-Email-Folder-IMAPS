@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Folder-IMAPS
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP over SSL Folders
-Summary(pl.UTF-8):   Email::Folder::IMAP - Dostęp do folderów IMAP przez SSL za pomocą Email::Folder
+Summary(pl.UTF-8):	Email::Folder::IMAP - Dostęp do folderów IMAP przez SSL za pomocą Email::Folder
 Name:		perl-Email-Folder-IMAPS
 Version:	1.02
 Release:	3
