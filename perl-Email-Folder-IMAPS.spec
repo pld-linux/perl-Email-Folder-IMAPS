@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Email
 %define		pnam	Folder-IMAPS
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP over SSL Folders
 Summary(pl.UTF-8):	Email::Folder::IMAP - Dostęp do folderów IMAP przez SSL za pomocą Email::Folder
 Name:		perl-Email-Folder-IMAPS
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	38c17bf7c8922a923112c309b98a2325
+URL:		http://search.cpan.org/dist/Email-Folder-IMAPS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
